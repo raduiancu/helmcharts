@@ -3,9 +3,9 @@ entries:
   istio:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-01-29T21:31:00.167273+02:00"
+    created: "2021-01-29T21:56:13.913795+02:00"
     description: Helm chart for all istio components
-    digest: b2f602baebefced8552539354c79043b0b3c07a2767c3eaa28a0b17d15188be4
+    digest: 6a4d445966390918f9af02f3a7b5bac980b511b4d0958828290528ccd9520cd1
     engine: gotpl
     icon: https://istio.io/favicons/android-192x192.png
     keywords:
@@ -22,4 +22,4 @@ entries:
     urls:
     - istio-1.2.2.tgz
     version: 1.2.2
-generated: "2021-01-29T21:31:00.161732+02:00"
+generated: "2021-01-29T21:56:13.905763+02:00"
