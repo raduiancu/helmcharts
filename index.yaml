@@ -3,7 +3,28 @@ entries:
   helm-operator:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2021-01-29T23:09:55.629549+02:00"
+    created: "2021-01-29T23:24:46.66374+02:00"
+    description: Flux Helm Operator is a CRD controller for declarative helming
+    digest: cd7e98e925c22ab702f6db1474ba69f8fb379eb0b2355fd9e98129f1e763420c
+    engine: gotpl
+    home: https://fluxcd.io
+    icon: https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/weave-flux.png
+    keywords:
+    - gitops
+    - helm
+    kubeVersion: '>=1.11.0-0'
+    maintainers:
+    - email: stefan@weave.works
+      name: stefanprodan
+    name: helm-operator
+    sources:
+    - https://github.com/fluxcd/helm-operator
+    urls:
+    - helm-operator-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: 1.2.0
+    created: "2021-01-29T23:24:46.662736+02:00"
     description: Flux Helm Operator is a CRD controller for declarative helming
     digest: b1efea4cc19c8a3d8311ffcc27e62ca64dc00dbc682fe7905ae4879640171a12
     engine: gotpl
@@ -25,7 +46,7 @@ entries:
   istio:
   - apiVersion: v1
     appVersion: 1.2.2
-    created: "2021-01-29T23:09:55.634987+02:00"
+    created: "2021-01-29T23:24:46.67154+02:00"
     description: Helm chart for all istio components
     digest: 6a4d445966390918f9af02f3a7b5bac980b511b4d0958828290528ccd9520cd1
     engine: gotpl
@@ -44,4 +65,4 @@ entries:
     urls:
     - istio-1.2.2.tgz
     version: 1.2.2
-generated: "2021-01-29T23:09:55.628009+02:00"
+generated: "2021-01-29T23:24:46.660614+02:00"
